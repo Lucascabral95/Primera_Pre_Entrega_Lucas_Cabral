@@ -1,0 +1,885 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+.navbar-brand {
+    color: red;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-fluid {
+    background-color: yellow;
+    display: inline;
+}
+
+img {
+    width: 130px;
+    height: 80px;
+}
+
+.collapse .navbar-collapse {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-link {
+    font-size: 2rem;
+    color: blue;
+    font-family: fantasy;
+}
+
+
+
+ul li:hover {
+    /* transform: translateX(25px);
+    text-shadow: 7px 7px 5px red;
+    transition: 0.9s; */
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: fuchsia;
+    color: aqua;
+    transform: translateY(14px);
+    transition: 0.9s;
+}
+
+
+/* css mew y pikachu */
+
+.eevees{
+    margin-bottom: 2%;
+    width: 100%;
+    background: linear-gradient(180deg, AQUA, white, aqua);
+}
+
+
+.eevee__umbreon{
+    height: 11vh; width: 10%;
+
+    animation-name: myp__m ;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.eevee__vapo{
+    height: 11vh; width: 10%;
+
+    animation-name: myp__p;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+.eevee__sylveon{
+    width: 8%; height: 11vh;
+    background: linear-gradient(180deg, aqua, white , aqua);
+
+    animation-name: eevee__leafeon;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.eevee__leafeon{
+    width: 8%; height: 11vh;
+    background: linear-gradient(180deg, aqua, white , aqua);
+
+    animation-name: eevee__leafeon;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+.mewypika__div{
+    margin-bottom: 1%;
+    background: linear-gradient(black,yellow,black);
+}
+
+
+.myp__p{
+    width: 10%;
+    height: 10vh;
+    
+    animation-name: myp__p;
+    animation-duration: 7s;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.myp__m{
+    width: 10%; height: 10vh;
+
+    animation-name: myp__m ;
+    animation-duration: 7s;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myp__p {
+    0%{
+        transform: translate(0%);
+    }
+    25%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-300%)
+    }
+    100%{
+        transform: translateX(-400%);
+    }
+}
+
+@keyframes myp__m {
+    0%{
+        transform: translateX(0%);
+    }
+    25%{
+        transform: translateX(100%);
+    }
+    50%{
+        transform: translateX(200%);
+    }
+    75%{
+        transform: translateX(300%);
+    }
+    100%{
+        transform: translateX(400%);
+    }
+}
+
+@keyframes eevee__leafeon{
+    0%{
+transform: translateY(0%);
+    }
+    25%{
+        transform: translateY(157%);
+    }
+    50%{
+        transform: translateY(314%);
+    }
+    75%{
+        transform: translateY(471%);
+    }
+    100%{
+        transform: translateY(629%);
+    }
+}
+
+
+@media (max-width:990px){
+    .myp__p{
+        display: none;
+    }
+    .myp__m{
+        display: none;
+    }
+    .eevee__leafeon{
+        display: none;
+    }
+    .eevee__sylveon{
+        display: none;
+    }
+    .eevee__vapo{
+        display: none;
+    }
+    .eevee__umbreon{
+        display: none;
+    }
+    .ache__cincomew{
+        position: relative; top: 15%;
+    }
+} 
+
+
+
+.datos__mewpika strong h5 {
+    text-align: center;
+    font-size: 3rem;
+    color: blue;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    font-family: fantasy;
+}
+
+@media (max-width:400px) {
+    .datos__mewpika strong h5 {
+        font-size: 2rem;
+    }
+
+    .pikachu__achecinco {
+        font-size: 1.5rem;
+    }
+
+    .mew__achecinco {
+        font-size: 1.5rem;
+    }
+}
+
+.pikachu__uno {
+    height: 38vh;
+    width: 100%;
+    box-shadow: 7px 7px 10px blue;
+}
+
+.pikachu h5 {
+    margin-top: 3%;
+}
+
+.pikachu__doss {
+    width: 100%;
+    height: 25vh;
+}
+
+.pikachu__achecinco {
+    font-size: 2rem;
+    color: yellow;
+    text-shadow: green 7px 7px 10px;
+    text-align: center;
+}
+
+.pikachu__achecinco--dos {
+    font-size: 1.5rem;
+    color: aquamarine;
+    text-align: center;
+    margin: 0%;
+    display: inline-block;
+    background-color: black;
+}
+
+.pikachu {
+    margin-bottom: 3%;
+}
+
+
+.mew__uno {
+    height: 38vh;
+    width: 100%;
+    box-shadow: 7px 7px 10px blue;
+}
+
+.mew h5 {
+    margin-top: 3%;
+}
+
+.pikachu__uno:hover {
+    transform: scale(1.2) translateX(-100px);
+    transition: 2s;
+}
+
+.mew__uno:hover {
+
+    animation-name: mew__uno;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+
+@keyframes mew__uno {
+
+    0% {
+        transform: scale(0);
+    }
+
+    25% {
+        transform: scale(0.25) rotate(90deg);
+    }
+
+    50% {
+        transform: scale(0.5) rotate(180deg);
+    }
+
+    75% {
+        transform: scale(0.75) rotate(270deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+main {
+    background-color: pink;
+}
+
+.mew__achecinco {
+    font-size: 2rem;
+    color: yellow;
+    text-shadow: green 7px 7px 10px;
+    text-align: center;
+}
+
+.mew__achecinco--dos {
+    font-size: 1.5rem;
+    color: aquamarine;
+    background-color: black;
+    display: inline-block;
+}
+
+.mew span {
+    font-size: 14px;
+    color: green;
+    font-family: cursive;
+}
+
+.mew__uno--dos {
+    width: 100%;
+    height: 80vh;
+    box-shadow: 7px 7px 10px blue;
+}
+
+.mew__uno--dos:hover {
+    transform: scale(0.75);
+    transition: 2s;
+}
+
+.container {
+    padding-top: 1%;
+}
+
+.container .row {
+    font-size: 18px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* footer */
+
+
+
+.container-fluid .footer {}
+
+.masinformacion {
+    background-color: yellow;
+    text-align: center;
+}
+
+.masinformacion h3 {
+    font-size: 1.5rem;
+    color: blueviolet;
+}
+
+.redessociales {
+    background-color: aqua;
+    text-align: center;
+}
+
+.redessociales h3 {
+    font-size: 1.5rem;
+    color: blueviolet;
+}
+
+.informacioncontactos {
+    background-color: wheat;
+    text-align: center;
+}
+
+.informacioncontactos h3 {
+    font-size: 1.5rem;
+    color: blueviolet;
+}
+
+.derechosreservados {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* index.Html */
+
+.satoshitajiri {
+    width: 100%;
+    height: 38vh;
+    box-shadow: 7px 7px 10px yellow;
+}
+
+.history__index--p p {
+    margin-bottom: 4%;
+}
+
+.concepto__index {
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+.tipoelementales__index {
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+.tipos__index {
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+.avionpikachu {
+    width: 100%;
+    height: 38vh;
+    box-shadow: 7px 7px 10px yellow;
+
+}
+
+.poselementales {
+    width: 100%;
+    height: 24vh;
+    box-shadow: 7px 7px 10px yellow;
+}
+
+.tipos__index {
+    font-family: cursive;
+}
+
+.tipos__tables {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: blueviolet;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+}
+
+td {
+    font-size: 1.5rem;
+    font-family: 'Lobster', cursive;
+    background-color: yellow;
+}
+
+.td__index {
+    background-color: aqua;
+    border: solid 2px black;
+}
+
+.tipos__tables td {
+    border: solid 2px black;
+}
+
+.tipos__tables:hover {
+    width: 100%;
+    transition: 1.5s;
+}
+
+.divdiv {
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+
+.subtipos {
+    margin-bottom: 4%;
+}
+
+.subtipos__index {
+    font-family: 'Roboto', sans-serif;
+}
+
+.categorias__daño {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.efectividades {
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+.efectividades__img {
+    width: 60%;
+    height: 80vh;
+    margin-bottom: 2%;
+    box-shadow: 7px 7px 10px yellow;
+}
+
+@media (max-width:780px) {
+    .efectividades__img {
+        width: 100%;
+        height: 45vh;
+    }
+}
+
+.container h2 {
+    text-shadow: 9px 9px 15px greenyellow;
+    color: blue;
+    font-family: 'Fredoka One', cursive;
+}
+
+.container img:hover {
+    transform: scale(0.75);
+    transition: 2s;
+}
+
+@media (max-width:400px) {
+    .container img:hover {
+        transform: scale(0.8);
+    }
+}
+
+@media (min-width:1000px) {
+    .container img:hover {
+        transform: translateY(180px);
+        transition: 2s;
+    }
+
+    .container .efectividades__img:hover {
+        transform: translateX(180px);
+        transition: 2s;
+    }
+}
+
+.container .mainn p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.concepto__index p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.celdas {
+    font-size: 1.5rem;
+    font-family: fantasy;
+}
+
+/* pokedex */
+
+
+.pikachu__doss--muchos {
+    box-shadow: 7px 7px 10px blue;
+    width: 100%;
+    height: auto;
+}
+
+.ache__pokedex--dos {
+    border-bottom: solid 3px blueviolet;
+    padding-bottom: 1%;
+    margin-bottom: 4%;
+}
+
+.ee {
+    border: solid 2px black;
+    background-color: white;
+    box-shadow: 10px 10px 10px blue;
+    font-family: fantasy;
+    color: blueviolet;
+}
+
+.ee p {
+    background-color: black;
+}
+
+.ee p:hover {
+    color: gold;
+}
+
+.pokedex__uno img:hover {
+    transform: scale(1.3);
+    transition: 1.5s;
+}
+
+.pokedex__uno {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2%;
+    grid-row: 10vh;
+    margin-top: 3%;
+}
+
+
+
+.ache__tres {
+    font-family: fantasy;
+    color: black;
+    text-shadow: 5px 5px 4px grey;
+}
+
+.pokedex__dos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2%;
+    grid-row: 10vh;
+    margin-top: 3%;
+}
+
+.pokedex__dos p {
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pokedex__dos p:hover {
+    color: gold;
+}
+
+.pokedex__dos img:hover {
+    transform: scale(1.3);
+    transition: 1.5s;
+}
+
+.dd {
+    background-color: white;
+    border: solid 2px black;
+    box-shadow: 10px 10px 10px blue;
+}
+
+.dd p {
+    background-color: black;
+}
+
+@media (max-width: 575px) {
+    .pokedex__dos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, auto);
+        gap: 1%;
+        margin-bottom: 55%;
+    }
+
+    .pokedex__uno {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, auto);
+        gap: 1%;
+        margin-bottom: 85%;
+    }
+}
+
+@media (max-width: 992px) and (min-width:575px) {
+    .pokedex__dos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, auto);
+        gap: 2%;
+        margin-bottom: 10%;
+    }
+
+    .pokedex__uno {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, auto);
+        gap: 2%;
+        margin-bottom: 20%;
+    }
+}
+
+/* quienes somos */
+
+
+.ache__dos--quienessomos {
+    border-bottom: solid 3px blueviolet;
+}
+
+.iframeyoutube {
+    width: 100%;
+    height: 30vh;
+}
+
+.quienessomos img:hover {
+    transform: scale(0.8);
+    transition: 1.5s;
+}
+
+.quienessomos__dos img:hover {
+    transform: scale(0.8);
+    transition: 1.5s;
+}
+
+/* pokemons+populares */
+.carousel-item {
+    width: 100%;
+    height: 60vh;
+}
+
+@media (max-width:576px) {
+    .carousel-item {
+        width: 100%;
+        height: 40vh;
+    }
+}
+
+/* pokemon+populares */
+
+.giratorio img:hover{
+    transform: translateX(1px);
+}
+
+
+
+
+
+.imagenesss {
+    width: 100%;
+    height: 90vh;
+}
+
+.imageness .imagenesss:hover{
+    transform: translateX(1px);
+}
+
+.calmalno .imagenesss:hover{
+    transform: translateX(1px);
+}
+
+@media (max-width:576px) {
+    .imagenesss {
+        width: 100%;
+        height: 80vh;
+    }
+}
+
+.ache__trespopu{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.flex__popus{
+    border: 3px solid blue;
+    background-color: aliceblue;
+    background-image: url(../img/pokemon-cover.png);
+    background-repeat: repeat-x;
+}
+
+.flex__popus ul li{
+    background-color: aqua;
+    display: flex;
+    align-content: center;
+}
+
+.flex__popus li{
+    align-items: center;
+}
+
+.cursiva {
+    font-size: 2rem;
+    font-family: font-family: 'Lobster', cursive;
+    
+}
+
+.lindo{
+    border-bottom: solid black 2.5px;
+    padding-bottom: 2%;
+}
+
+/* contactanos */
+
+.uu{
+    border-bottom: solid black 2.5px;
+    padding-bottom: 3%;
+}
+
+.portelefono{
+    font-size: 2rem;
+    color: rgb(255, 71, 249);
+    text-align: center;
+}
+
+.contacto__doss .span__poke {
+    font-size: 1.4rem;
+    color: blue;
+    font-family: font-family: 'Pacifico', cursive;
+    ;
+}
+
+.contacto__doss {
+    font-size: 1.4rem;
+    color: deeppink;
+    font-family: fantasy;
+}
+
+.contact__div--uno{
+    background-color:blueviolet ;
+}
+
+.oficina__central{
+    padding-top: 15px;
+}
+
+.contact__div--dos{
+    background-color: brown;
+}
+.datoscontact{
+    padding-top: 15px;
+}
+
+.contact__div--tres{
+    background-color: aqua;
+}
+.email_e{
+    padding-top: 15px;
+}
+
+.queres {
+    color: black(71, 255, 234);
+    margin-bottom: 5%;
+    font-family: fantasy;
+}
+
+.queresdos{
+    font-size: 2rem;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 1px solid black ;
+    padding-bottom: 3%;
+}
+
+.hcontacto{
+    color: deeppink;
+    font-family: fantasy;
+    font-size: 2.7rem;
+}
+
+.hhcontacto{
+    font-size: 2rem;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.hole label{
+    color: black;
+    font-family: cursive;
+    font-size:1.5rem;
+}
+
+.holee label{
+    font-size: 2rem;
+    color: blue;
+    font-family: cursive;
+}
+
+main{
+    background-image: url(https://fondosmil.com/fondo/14726.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: yellow;
+}
+
+.container{
+    background-color: wheat;
+}
+
+header{
+    background-color: yellow;
+}
+
+footer{
+    background-color: black;
+}
+
+.flex__popus ul li:hover{
+    transform: scale(1.3);
+    transition: 0.6s;
+    color: black;
+    background-color: yellow;
+}
