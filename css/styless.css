@@ -6,6 +6,12 @@
 
 }
 
+.ache__unono{
+    position: absolute;
+    font-size: 1rem;
+    clip: rect(0 0 0 0);
+}
+
 .navbar-brand {
     color: red;
 }
@@ -52,6 +58,14 @@ ul li:hover {
 
 
 /* css mew y pikachu */
+
+.ache__cincomew{
+    text-align: center;
+    color: blue;
+    font-size: 3rem;
+    font-family: fantasy;
+    margin-bottom: 2.5%;
+}
 
 .eevees{
     margin-bottom: 2%;
@@ -401,6 +415,7 @@ main {
 
 /* index.Html */
 
+
 .satoshitajiri {
     width: 100%;
     height: 38vh;
@@ -709,6 +724,10 @@ td {
 
 /* pokemon+populares */
 
+.diezclases{
+    font-weight: bolder;
+}
+
 .giratorio img:hover{
     transform: translateX(1px);
 }
@@ -863,18 +882,22 @@ main{
     background-size: 100%;
     background-attachment: fixed;
     background-color: yellow;
+    overflow: hidden;
 }
 
 .container{
     background-color: wheat;
+    overflow: hidden;
 }
 
 header{
     background-color: yellow;
+    overflow: hidden;
 }
 
 footer{
     background-color: black;
+    overflow: hidden;
 }
 
 .flex__popus ul li:hover{
@@ -883,3 +906,4 @@ footer{
     color: black;
     background-color: yellow;
 }
+
