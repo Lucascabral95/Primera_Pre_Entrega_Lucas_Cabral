@@ -1,0 +1,23 @@
+//Navbar
+.navbar{
+    .navbar-nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navbar-brand {
+        color: red;
+    }
+    .collapse .navbar-collapse {
+        display: flex;
+        justify-content: end;
+    }
+    .nav-link {
+        font-size: 2rem;
+        color: blue;
+        font-family: fantasy;
+    }
+    img {
+        width: 130px;
+        height: 80px;
+    }
+}

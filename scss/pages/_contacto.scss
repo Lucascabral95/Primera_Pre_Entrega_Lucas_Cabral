@@ -1,0 +1,76 @@
+//Contacto
+.container{
+.contactanos {
+    .portelefono {
+        font-size: 2rem;
+        color: rgb(255, 71, 249);
+        text-align: center;
+        border-top: solid black 2px;
+        padding-top: 2%;
+    }
+
+    .contact__div--uno {
+        background-color: blueviolet;
+
+        .oficina__central {
+            padding-top: 15px;
+        }
+    }
+
+    .contact__div--dos {
+        background-color: brown;
+
+        .datoscontact {
+            padding-top: 15px;
+        }
+    }
+
+    .contact__div--tres {
+        background-color: aqua;
+
+        .email_e {
+            padding-top: 15px;
+        }
+    }
+}
+
+.queres {
+    color: black(71, 255, 234);
+    margin-bottom: 5%;
+    font-family: fantasy;
+}
+
+.queresdos {
+    font-size: 2rem;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 1px solid black;
+    padding-bottom: 3%;
+}
+
+.contacto__cuatro{
+    .holee label{
+        font-size: 2rem;
+        color: blue;
+        font-family: cursive;
+    }
+}
+
+.hcontacto{
+    color: deeppink;
+    font-family: fantasy;
+    font-size: 2.7rem;
+}
+
+.hhcontacto{
+    font-size: 2rem;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hole label{
+    color: black;
+    font-family: cursive;
+    font-size:1.5rem;
+}
+}

@@ -1,0 +1,196 @@
+//Pokemons mas populares
+.container {
+    .eevees {
+        margin-bottom: 2%;
+        width: 100%;
+        background: linear-gradient(180deg, AQUA, white, aqua);
+
+        .eevee__umbreon {
+            height: 11vh;
+            width: 10%;
+
+            animation-name: myp__m;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate;
+        }
+
+        .eevee__vapo {
+            height: 11vh;
+            width: 10%;
+
+            animation-name: myp__p;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate-reverse;
+            animation-direction: alternate;
+        }
+
+        @keyframes myp__p {
+            0% {
+                transform: translate(0%);
+            }
+
+            25% {
+                transform: translateX(-100%);
+            }
+
+            50% {
+                transform: translateX(-200%);
+            }
+
+            75% {
+                transform: translateX(-300%)
+            }
+
+            100% {
+                transform: translateX(-400%);
+            }
+        }
+
+        @keyframes myp__m {
+            0% {
+                transform: translateX(0%);
+            }
+
+            25% {
+                transform: translateX(100%);
+            }
+
+            50% {
+                transform: translateX(200%);
+            }
+
+            75% {
+                transform: translateX(300%);
+            }
+
+            100% {
+                transform: translateX(400%);
+            }
+        }
+    }
+
+    .eevee__dos {
+        .eevee__sylveon {
+            width: 9.3%;
+            height: 11vh;
+            background: linear-gradient(180deg, aqua, white, aqua);
+
+            animation-name: eevee__leafeon;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate;
+        }
+
+        .eevee__leafeon {
+            width: 9.3%;
+            height: 11vh;
+            background: linear-gradient(180deg, aqua, white, aqua);
+
+            animation-name: eevee__leafeon;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate;
+        }
+
+        @keyframes eevee__leafeon {
+            0% {
+                transform: translateY(0%);
+            }
+
+            25% {
+                transform: translateY(157%);
+            }
+
+            50% {
+                transform: translateY(314%);
+            }
+
+            75% {
+                transform: translateY(471%);
+            }
+
+            100% {
+                transform: translateY(629%);
+            }
+        }
+    }
+
+    @media (max-width: 1202px) {
+        .eevee__sylveon {
+            display: none;
+        }
+
+        .eevee__leafeon {
+            display: none;
+        }
+    }
+
+    @media (max-width:990px) {
+        .eevee__vapo {
+            display: none;
+        }
+
+        .eevee__umbreon {
+            display: none;
+        }
+    }
+
+    .imagenesss {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .imageness .imagenesss:hover {
+        transform: translateX(1px);
+    }
+
+    .calmalno .imagenesss:hover {
+        transform: translateX(1px);
+    }
+
+    .cursiva {
+        font-size: 2rem;
+        font-family: 'Lobster', cursive;
+    }
+
+    .flex__popus {
+        border: 3px solid blue;
+        background-color: aliceblue;
+        background-image: url(../img/pokemon-cover.png);
+        background-repeat: repeat-x;
+
+        .diezclases {
+            font-weight: bolder;
+
+            ul li {
+                background-color: aquamarine;
+                display: flex;
+                align-content: center;
+                align-items: center;
+            }
+        }
+
+        ul li:hover {
+            transform: scale(1.3);
+            transition: 0.6s;
+            color: black;
+            background-color: yellow;
+        }
+
+        ul li:nth-child(odd) {
+            color: black;
+            font-weight: bolder;
+        }
+
+        ul li:nth-child(even) {
+            font-weight: bolder;
+            color: #880E4F;
+        }
+    }
+}

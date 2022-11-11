@@ -1,0 +1,12 @@
+//Quienes somos
+.container {
+    .quienessomos__dos img:hover {
+        transform: scale(0.8);
+        transition: 1.5s;
+    }
+
+    .quienessomos img:hover {
+        transform: scale(0.8);
+        transition: 1.5s;
+    }
+}

@@ -1,0 +1,47 @@
+//Footer
+footer {
+    background-color: black;
+    overflow: hidden;
+    padding-top: 1.2%;
+    padding-bottom: 0.5%;
+
+    .masinformacion {
+        background-color: yellow;
+        text-align: center;
+
+        h3 {
+            font-size: 1.5rem;
+            color: blueviolet;
+        }
+    }
+
+    .redessociales {
+        background-color: aqua;
+        text-align: center;
+
+        h3 {
+            font-size: 1.5rem;
+            color: blueviolet;
+        }
+    }
+
+    .informacioncontactos {
+        background-color: wheat;
+        text-align: center;
+
+        h3 {
+            font-size: 1.5rem;
+            color: blueviolet;
+        }
+    }
+
+    .derechosreservados {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-top: 0.5%;
+        .diezclases{
+            font-weight: bolder;
+        }
+    }
+}

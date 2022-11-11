@@ -1,0 +1,24 @@
+@mixin subtitulo {
+    text-shadow: 15px 15px 10px pink;
+    color: $color-subtitulos;
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+}
+
+@mixin sub-subtitulo {
+    text-shadow: 5px 5px 15px gold;
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    color: $color-sub-subtitulos;
+}
+
+
+@mixin large {
+    @media (max-width: 992px) {
+        transform: scale(0.8);
+        transition: 2s;
+        @content
+    }
+}
+
+

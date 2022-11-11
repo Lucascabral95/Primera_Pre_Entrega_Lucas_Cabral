@@ -1,0 +1,26 @@
+//Utils. Mixin y variables.
+@import "./utils/mixin";
+@import "./utils/variables";
+
+//Base. Reset y tipografia
+@import "./base/reset";
+@import "./base/tipografia";
+
+//Components. Botones, carousel, keyframes, medias queries, navbar, tarjeta
+@import "./components/botones";
+@import "./components/carousel";
+@import "./components/navbar";
+
+//Layout. Body, header, footer, main.
+@import "./layout/body";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/main";
+
+//Pages. Contacto, index, mew y pikachu, pokedex, pokemons mas populares, quienes somos
+@import "./pages/index";
+@import "./pages/contacto";
+@import "./pages/mewypikachu";
+@import "./pages/pokedex";
+@import "./pages/pokemons+populares";
+@import "./pages/quienessomos";

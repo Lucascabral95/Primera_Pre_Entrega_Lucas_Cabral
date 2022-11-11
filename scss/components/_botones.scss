@@ -1,0 +1,9 @@
+//Botones
+ul li:hover {
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: fuchsia;
+    color: aqua;
+    transform: translateY(14px);
+    transition: 0.9s;
+}

@@ -1,0 +1,185 @@
+//Mew y pikachu
+.container {
+    .ache__cincomew {
+        text-align: center;
+        color: blue;
+        font-size: 3rem;
+        font-family: fantasy;
+        margin-bottom: 2.5%;
+    }
+
+    @media (max-width:990px) {
+        .ache__cincomew {
+            position: relative;
+            top: 15%;
+        }
+    }
+
+    .mewypika__div {
+        margin-bottom: 1%;
+        background: linear-gradient(black, yellow, black);
+
+        .myp__m {
+            width: 10%;
+            height: 10vh;
+
+            animation-name: myp__m;
+            animation-duration: 7s;
+            transition-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        .myp__p {
+            width: 10%;
+            height: 10vh;
+
+            animation-name: myp__p;
+            animation-duration: 7s;
+            transition-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+    }
+
+    .pikachu {
+        margin-bottom: 3%;
+
+        .pikachu__achecinco {
+            font-size: 2rem;
+            color: yellow;
+            text-shadow: green 7px 7px 10px;
+            text-align: center;
+            margin-top: 2.5%;
+        }
+
+        .pikachu__achecinco--dos {
+            font-size: 1.5rem;
+            color: aquamarine;
+            text-align: center;
+            margin: 0%;
+            display: inline-block;
+            background-color: black;
+            margin-top: 3%;
+        }
+
+        .pikachu__doss {
+            width: 100%;
+            height: 25vh;
+        }
+
+        .pikachu__doss--muchos {
+            box-shadow: 7px 7px 10px blue;
+            width: 100%;
+            height: auto;
+        }
+
+        .pikachu__uno {
+            height: 38vh;
+            width: 100%;
+            box-shadow: 7px 7px 10px blue;
+        }
+
+        .mew__uno {
+            height: 38vh;
+            width: 100%;
+            box-shadow: 7px 7px 10px blue;
+        }
+
+        .pikachu__uno:hover {
+            transform: translateY(180px);
+            transition: 0.5s
+            }
+
+        .pikachu__doss--muchos:hover {
+            transform: translateY(-180px);
+            transition: 0.5s;
+        }
+    }
+
+    .mew {
+        margin-bottom: 3%;
+
+        .mew__achecinco {
+            font-size: 2rem;
+            color: yellow;
+            text-shadow: green 7px 7px 10px;
+            text-align: center;
+            margin-top: 2.5%;
+        }
+
+        .mew__uno {
+            height: 38vh;
+            width: 100%;
+            box-shadow: 7px 7px 10px blue;
+        }
+
+        .mew__achecinco--dos {
+            font-size: 1.5rem;
+            color: aquamarine;
+            background-color: black;
+            display: inline-block;
+            margin-top: 3%;
+        }
+
+        .mew__uno--dos {
+            width: 100%;
+            height: 80vh;
+            box-shadow: 7px 7px 10px blue;
+        }
+
+        .mew__uno--dos:hover {
+            transform: translateY(180px);
+            transition: 0.5s;
+        }
+    }
+
+
+    .mew__uno:hover {
+
+        animation-name: mew__uno;
+        animation-duration: 4s;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: infinite;
+        transition: ease-in-out;
+    }
+
+    @keyframes mew__uno {
+
+        0% {
+            transform: scale(0);
+        }
+
+        25% {
+            transform: scale(0.25) rotate(90deg);
+        }
+
+        50% {
+            transform: scale(0.5) rotate(180deg);
+        }
+
+        75% {
+            transform: scale(0.75) rotate(270deg);
+        }
+
+        100% {
+            transform: scale(1) rotate(360deg);
+        }
+    }
+
+    @media (max-width:990px) {
+        .myp__p {
+            display: none;
+        }
+
+        .myp__m {
+            display: none;
+        }
+    }
+    .pikachu__uno:hover{
+        @include large {
+            transform: scale(2);
+            transition: 2s;
+        }
+    }
+}
