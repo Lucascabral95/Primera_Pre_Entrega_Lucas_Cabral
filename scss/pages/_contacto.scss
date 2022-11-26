@@ -1,7 +1,7 @@
 //Contacto
 .container{
 .contactanos {
-    .portelefono {
+    .contactanos__portelefono {
         font-size: 2rem;
         color: rgb(255, 71, 249);
         text-align: center;
@@ -9,26 +9,26 @@
         padding-top: 2%;
     }
 
-    .contact__div--uno {
+    .contactanos__contact--uno {
         background-color: blueviolet;
 
-        .oficina__central {
+        .contactanos__contact--uno--oficina {
             padding-top: 15px;
         }
     }
 
-    .contact__div--dos {
+    .contactanos__contact--dos {
         background-color: brown;
 
-        .datoscontact {
+        .contactanos__contact--dos--datoscontact--dos {
             padding-top: 15px;
         }
     }
 
-    .contact__div--tres {
+    .contactanos__contact--tres {
         background-color: aqua;
 
-        .email_e {
+        .contactanos__contact--tres--email_e {
             padding-top: 15px;
         }
     }
@@ -48,8 +48,8 @@
     padding-bottom: 3%;
 }
 
-.contacto__cuatro{
-    .holee label{
+.contactolabel{
+    .exito__label__holee label{
         font-size: 2rem;
         color: blue;
         font-family: cursive;

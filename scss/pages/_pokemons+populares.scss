@@ -141,16 +141,16 @@
         }
     }
 
-    .imagenesss {
+    .image__fans {
         width: 100%;
         height: 90vh;
     }
 
-    .imageness .imagenesss:hover {
+    .image .image__fans:hover {
         transform: translateX(1px);
     }
 
-    .calmalno .imagenesss:hover {
+    .calmalno .image__fans:hover {
         transform: translateX(1px);
     }
 
@@ -165,7 +165,7 @@
         background-image: url(../img/pokemon-cover.png);
         background-repeat: repeat-x;
 
-        .diezclases {
+        .flex__popus-diezclases {
             font-weight: bolder;
 
             ul li {
