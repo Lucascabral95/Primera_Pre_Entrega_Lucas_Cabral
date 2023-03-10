@@ -19,7 +19,7 @@
         grid-row: 10vh;
         margin-top: 3%;
 
-        .ee {
+        .pokedex__uno__especies {
             border: solid 2px black;
             background-color: white;
             box-shadow: 10px 10px 10px blue;
@@ -27,13 +27,13 @@
             color: blueviolet;
         }
 
-        .ee p {
+        .pokedex__uno__especies p {
             background-color: black;
         }
-        .ee p:hover {
+        .pokedex__uno__especies p:hover {
             color: gold;
         }
-        .ee p::first-letter{
+        .pokedex__uno__especies p::first-letter{
             color: red;
         }
     }
